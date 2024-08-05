@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="school">
+        <h1>Mangalore Universiy</h1>
+      </div>
+      <div class="container">
+        <div class="header">
+          <h1>Class X</h1>
+          <input id="search" type="text" placeholder="Search Student" />
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>SI.NO</th>
+            <th>Student Name</th>
+            <th>Student Age</th>
+            <th>Student City</th>
+            <th>Total Marks</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+
+      <div class="pagination">
+        <button id="previous"><i class="fa-solid fa-arrow-left"></i></button>
+        <div id="nums"></div>
+        <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
+        <p id="info"></p>
+      </div>
+    </div>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
